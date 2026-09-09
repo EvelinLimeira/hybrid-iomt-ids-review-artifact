@@ -61,22 +61,19 @@ tables and four figures.
 
 | File | Supports | Where it appears in the paper |
 |---|---|---|
-| `search/queries.md` | canonical Boolean string, per-interface adaptations, exported and post-deduplication counts | **Table 3** (search results and database-specific adaptations); Sect. 3 "Protocol, Search Strategy" |
-| `search/exports/` | provenance of the 1,441 identified records | **Table 3**; Sect. 3 |
+| `search/queries.md` | canonical Boolean string, per-interface adaptations, exported and post-deduplication counts | **Table 2** (search results and database-specific adaptations); Sect. 3 "Protocol, Search Strategy" |
+| `search/exports/` | provenance of the 1,441 identified records | **Table 2**; Sect. 3 |
 | `data/01_screening_trail.csv` | the whole selection process: 1,441 → 1,417 → 1,247 excluded → 170 sought → 13 not retrieved → 157 assessed → 123 excluded → 34 included | **Fig. 1** (PRISMA 2020 flow); Sect. 3 "Eligibility and Screening" |
-| `data/05_inclusion_exclusion_criteria.csv` | the operational eligibility rule (IoMT environment, cybersecurity detection task, unsupervised component joined to a supervised classifier in one inference process) | **Table 2** (PICOC scope and operational construct); Sect. 3 |
+| `data/05_inclusion_exclusion_criteria.csv` | the operational eligibility rule (IoMT environment, cybersecurity detection task, unsupervised component joined to a supervised classifier in one inference process) | **Table 1** (PICOC scope and operational construct); Sect. 3 |
 | `data/02_accepted_studies.csv` | the 34 included studies, their years, venues and DOIs | **Fig. 2** (corpus profile: year, publisher, affiliation country); the reference list, entries [10]–[43] |
 | `data/03_quality_assessment_scores.csv` | per-study QA1–QA10 scores, totals, core subtotal | Sect. 3 "Quality Assessment and Data Extraction" (mean 4.96/10, median 5.0, range 2.0–7.0); Sect. 5 "RQ3" (QA distribution) |
 | `data/04_quality_assessment_questions.csv` | the ten quality items and the scoring rubric | Sect. 3 "Quality Assessment and Data Extraction" |
 | `docs/extraction-grid.md` | the 59 extraction fields and how they group by research question | Sect. 3 "Quality Assessment and Data Extraction" (9 + 11 + 13 + 16 + 10 = 59) |
-| `data/06_rq1_architecture.csv` | raw RQ1 codes: architecture type, stages, unsupervised and supervised components, integration mechanism, anomaly role | **Table 4** (non-exclusive architectural and integration attributes); **Fig. 3** (transferred object vs decision influence) |
+| `data/06_rq1_architecture.csv` | raw RQ1 codes: architecture type, stages, unsupervised and supervised components, integration mechanism, anomaly role | **Table 3** (architectural and integration attributes); **Table 4** (algorithm families); **Fig. 3** (transferred object vs decision influence) |
 | `data/07_rq2_design.csv` | raw RQ2 codes: threshold strategy, granularity, explainability, deployment target, federated learning | Sect. 4 "RQ2"; **Table 5** (deployment row) |
-| `data/08_rq3_gaps.csv` | raw RQ3 codes: datasets, cross-dataset validation, unknown-attack evaluation, per-device evaluation, code availability, reported metrics | **Fig. 4** (reporting dimensions); **Table 5** (attack coverage, datasets); **Table 6** (representative within-study results) |
+| `data/08_rq3_gaps.csv` | raw RQ3 codes: datasets, cross-dataset validation, unknown-attack evaluation, per-device evaluation, code availability, reported metrics | **Fig. 4** (reporting dimensions); **Table 4** (evaluation datasets); **Table 5** (attack coverage); **Table 6** (representative within-study results) |
 
-The two tables with no data file behind them are **Table 1** (a comparison with five prior
-IoMT IDS reviews, drawn from the cited reviews themselves, not from this corpus) and the
-narrative rows of **Table 5** that come from the exploratory CTI reading of the 34 full
-texts rather than from a coded column.
+The table with no data file behind it is **Table 5**, whose narrative rows come from the exploratory CTI reading of the 34 full texts rather than from a coded column.
 
 ## Screening trail
 
@@ -187,7 +184,7 @@ paper — see the next section.
 ## Raw extraction codes are not the reported counts
 
 The paper states that free-text extraction fields were "reduced to the closed codes in
-Tables 4 and 5", with topology, transferred information and decision influence coded on
+Tables 3 and 5", with topology, transferred information and decision influence coded on
 separate axes. `06`–`08` are the input to that step, not its output. Recomputing a paper
 figure directly from a single column will therefore not always reproduce it. The
 differences are systematic, not errors, and the main ones are listed here so that a reader
@@ -255,7 +252,7 @@ package documents a selection and a coding, not an experiment.
 
 - **SpringerLink export replaced.** The package previously shipped an 873-row interface
   download named `Springer_SearchResults.csv`, which was a strict subset of the search
-  result and did not match the 995 records reported in Table 3. It has been replaced by the
+  result and did not match the 995 records reported in Table 2. It has been replaced by the
   complete 995-row export, `springerlink_export.csv`. The 873-row file contained no record
   that the 995-row file lacks, and no screening decision changes.
 - **Export files renamed** to a consistent scheme; original download names are recorded in

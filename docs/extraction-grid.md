@@ -8,7 +8,7 @@ counts reported in the paper.
 | Group | Fields | Serves | File | Reported in the paper as |
 |---|---:|---|---|---|
 | Bibliographic and provenance | 9 | corpus profile | `02_accepted_studies.csv` | Fig. 2 |
-| Architecture and integration | 11 | RQ1 | `06_rq1_architecture.csv` | Table 4, Fig. 3 |
+| Architecture and integration | 11 | RQ1 | `06_rq1_architecture.csv` | Table 3, Fig. 3 |
 | Design and deployment | 13 | RQ2 | `07_rq2_design.csv` | Sect. 4 "RQ2", Table 5 |
 | Evaluation and gaps | 16 | RQ3 | `08_rq3_gaps.csv` | Fig. 4, Tables 5 and 6 |
 | Quality assessment | 10 | all | `03_quality_assessment_scores.csv` | Sect. 3, Sect. 5 |
@@ -24,7 +24,7 @@ not one of the 59 grid fields and the PDFs are not redistributed.
 
 Consolidation ran in two steps, as described in the paper. Free-text fields — chiefly the
 reconstructed integration mechanism — were written per study from page-level evidence, then
-reduced to the closed codes of Tables 4 and 5, with topology, transferred information and
+reduced to the closed codes of Tables 3 and 5, with topology, transferred information and
 decision influence coded on separate axes. Coded values were then tallied over the 34
 accepted rows and reported as frequencies and percentages of N = 34, with *unreported* and
 *not applicable* kept distinct so that an absent value is never counted as a negative
