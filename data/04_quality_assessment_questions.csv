@@ -1,0 +1,12 @@
+ID,Question,Partially means,Core?,Score
+QA1,"Is the proposed system clearly described, including its architecture and main components?",—,Yes,1/0.5/0
+QA2,Does the system combine at least one unsupervised component with at least one supervised component in an explicit pipeline/cascade?,Pipeline has two stages but unsupervised/supervised split is not explicit or arguable,Yes,1/0.5/0
+QA3,Is the evaluation performed on a dataset relevant to IoMT or healthcare network traffic?,"Evaluated on generic IoT dataset (BoT-IoT, CIC-IoT) but not specifically IoMT/healthcare",Yes,1/0.5/0
+QA4,"Are standard performance metrics reported (accuracy, F1-score, precision, recall, AUC, FPR)?",—,Yes,1/0.5/0
+QA5,Is the system validated beyond a single public benchmark dataset?,Uses two public benchmark datasets but no real traffic or honeypot,No,1/0.5/0
+QA6,Are the limitations of the proposed system explicitly discussed by the authors?,—,No,1/0.5/0
+QA7,Does the paper address zero-day or unknown attack detection?,"Tests unseen classes within same dataset family, not truly out-of-distribution",No,1/0.5/0
+QA8,"Does the paper incorporate explainability mechanisms (SHAP, LIME, attention, XAI)?",Provides feature importance scores but no dedicated XAI method,No,1/0.5/0
+QA9,Does the paper address per-device profiling or device-specific modeling?,Groups traffic by device type/protocol but does NOT build per-device models,No,1/0.5/0
+QA10,"Does the paper discuss adaptive thresholds, concept drift, or dynamic model updates?",Fixed thresholds with cross-validation tuning but no online adaptation,No,1/0.5/0
+THRESHOLD,QA1 + QA2 + QA3 + QA4 ≥ 2.0 required for inclusion,,,

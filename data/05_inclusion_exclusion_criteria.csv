@@ -1,0 +1,20 @@
+Inclusion Criteria,
+ID,Criterion
+IC1,"The paper addresses IoMT environments, including medical devices, wearables, patient monitoring systems, or smart healthcare networks"
+IC2,The paper proposes or evaluates an intrusion detection or anomaly detection system
+IC3,"The architecture is hybrid, combining at least one unsupervised component with at least one supervised component in a cascade, two-stage, multi-stage, or ensemble design"
+IC4,The paper is a primary study
+IC5,Published between 2019 and 2026
+IC6,Written in English
+Exclusion Criteria,
+ID,Criterion
+EC1,"The paper does not address IoMT, medical IoT, or smart healthcare environments"
+EC2,The paper does not propose or evaluate an intrusion detection or anomaly detection system
+EC3,The architecture is single-stage or purely supervised (no unsupervised anomaly detection component)
+EC4,The architecture is purely unsupervised with no supervised classification stage
+EC5,"The paper addresses unrelated domains such as spam detection, medical imaging, NLP, or signal processing without a network security context"
+EC6,The paper is a duplicate of another included study
+EC7,"The paper is a book chapter or secondary publication; a systematic review, or a mapping study, or an editorial, keynote, or abstract-only entry; book chapters are considered secondary studies relative to the primary objectives of this review"
+EC8,"Published before 2019, unless the work is directly seminal to the hybrid IoMT IDS domain"
+EC9,Not written in English
+EC10,Full text unavailable — the paper could not be retrieved for full-text screening

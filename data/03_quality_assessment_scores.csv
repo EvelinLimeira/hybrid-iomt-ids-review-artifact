@@ -1,0 +1,36 @@
+ID,Title,QA1,QA2,QA3,QA4,QA5,QA6,QA7,QA8,QA9,QA10,Total,Core 1-4,Meets Threshold,FT Avail.
+,,Architecture described,Genuine hybrid,IoMT dataset,Metrics reported,Multi-dataset validation,Limitations discussed,Zero-day tested,Explainability,Per-device profiling,Adaptive threshold,,,,
+R0093,Machine Learning-Enhanced Cross-Tier Security and Anomaly Detection in Wireless Body Area Networks,Part.,Part.,Part.,Yes,No,No,No,No,Part.,Part.,3.5,2.5,Yes,Yes
+R0175,An Adaptive Dynamic Anomaly Detection Model for Internet of Medical Things,Yes,Yes,Yes,Yes,No,Yes,Yes,Part.,No,Part.,7.0,4.0,Yes,Yes
+R0177,A Multi-Stage Learning Framework for Detecting Known and Novel Attacks in the Internet of Medical Th,Yes,Yes,Yes,Part.,No,Part.,Yes,No,No,No,5.0,3.5,Yes,Yes
+R0183,An Explainable Latent-Attention Hybrid Deep Learning Framework for High-Fidelity Intrusion Detection,Yes,Yes,Yes,Yes,Part.,Yes,No,Yes,No,No,6.5,4.0,Yes,Yes
+R0192,Optimized Hybrid Approach for Anomaly Detection of DDoS and Network Attacks in IoMT Systems using Au,Part.,No,Yes,Yes,No,Yes,No,No,No,No,3.5,2.5,Yes,Yes
+R0204,Adaptive Anomaly Detection in IoT-Connected Healthcare Wearables Using a Combined Random Forest and,Part.,Yes,No,Yes,No,No,No,No,No,No,2.5,2.5,Yes,Yes
+R0214,A Unified AI Framework for Confidentiality Preserving Cyberattack Detection in Healthcare Cyber Phys,Yes,Part.,Yes,Yes,Part.,Part.,No,No,No,Part.,5.0,3.5,Yes,Yes
+R0338,Anomaly detection in Internet of medical Things with Blockchain from the perspective of deep neural,Part.,Part.,No,No,No,Yes,No,No,No,No,2.0,1.0,No,Yes
+R0392,A privacy-aware framework for detecting cyber attacks on internet of medical things systems using da,Yes,Yes,Yes,Part.,Yes,No,No,No,No,No,4.5,3.5,Yes,Yes
+R0413,Implementation of art therapy assisted by the internet of medical things based on blockchain and fuz,Yes,Yes,No,Yes,No,Yes,No,No,No,No,4.0,3.0,Yes,Yes
+R0419,Research on optimizing network intrusion detection using deep learning and big data in intelligent e,Yes,Part.,No,Yes,Yes,Part.,No,No,No,No,4.0,2.5,Yes,Yes
+R0444,AIDA: A health informatics-oriented adaptive cybersecurity framework for clinically aware detection,Yes,Part.,Part.,Yes,No,Yes,Part.,Yes,No,Yes,6.5,3.0,Yes,Yes
+R0446,An Auto Encoder-Enhanced Stacked Ensemble for Intrusion Detection in Healthcare Networks,Yes,—,Yes,Yes,No,Part.,No,Yes,No,No,4.5,3.0,Yes,Yes
+R0457,A Fuzzy-Based Duo-Secure Multi-Modal Framework for IoMT Anomaly Detection,Part.,Yes,Yes,Part.,No,No,No,No,No,No,3.0,3.0,Yes,Yes
+R0479,Future-Proofing CIA Triad with Authentication for Healthcare: Integrating Hybrid Architecture of ML,Yes,Part.,Part.,Yes,No,No,No,No,No,No,3.0,3.0,Yes,Yes
+R0483,Meta-Fed IDS: Meta-learning and Federated learning based fog-cloud approach to detect known and zero,Yes,Yes,Yes,Yes,Yes,Yes,No,Part.,No,Part.,7.0,4.0,Yes,Yes
+R0491,A hybrid lightweight feature extraction assisted ensemble approach for intrusion detection with ESMO,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,7.0,4.0,Yes,Yes
+R0495,GEMLIDS-MIOT: A Green Effective Machine Learning Intrusion Detection System based on Federated Learn,Yes,Yes,Part.,Part.,Part.,Part.,Yes,No,No,Part.,5.5,3.0,Yes,Yes
+R0531,Spatial–temporal graph neural network with autoencoder pretraining for intrusion detection in health,Yes,Yes,Yes,Yes,Yes,No,Part.,No,Part.,No,6.0,4.0,Yes,Yes
+R0555,Smart defense based on explainable stacked machine learning architecture for securing internet of he,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,5.0,4.0,Yes,Yes
+R0571,Blockchain-Based intrusion detection system for IoMT utilizing an enhanced artificial bee colony (E-,Yes,Yes,Part.,Yes,No,Yes,No,No,No,No,4.5,3.5,Yes,Yes
+R0639,A hybrid blockchain based deep learning model for multivector attack detection in internet of things,Yes,Yes,Part.,Yes,Yes,Part.,No,No,No,No,5.0,3.5,Yes,Yes
+R0696,"Hybrid deep learning-enabled framework for enhancing security, data integrity, and operational perfo",Yes,Yes,Yes,Yes,Part.,No,No,No,Yes,Yes,6.5,4.0,Yes,Yes
+R0736,Dynamic Weighted K-Asynchronous Federated Learning for Privacy-Preserving Intrusion Detection in Wir,Yes,Yes,Yes,Yes,Part.,No,Part.,No,Yes,Yes,7.0,4.0,Yes,Yes
+R0753,A power-efficient layered MIoT framework for real-time ECG anomaly detection and sensor fault classi,Yes,Yes,Part.,Yes,No,No,No,Yes,No,Part.,5.0,3.5,Yes,Yes
+R0779,Securing healthcare data in mobile edge computing: a hybrid deep learning framework for privacy and,Yes,Yes,Yes,Part.,Yes,No,No,No,No,No,4.5,3.5,Yes,Yes
+R0791,A lightweight trusted framework for secure data exchange and threat mitigation in IoT-enabled health,Yes,Part.,Part.,Yes,No,No,No,No,Yes,Yes,5.0,3.0,Yes,Yes
+R0804,Enhancing IoMT edge security through federated small language models and knowledge-defined networks,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,7.0,3.0,Yes,Yes
+R0957,Blockchain and deep learning for improving impenetrable data passage in the IoT-imbued healthcare sy,Yes,Yes,Part.,Yes,Part.,Yes,No,No,No,No,5.0,3.5,Yes,Yes
+R1070,Intrusion Detection Method Based on Stacked Sparse Autoencoder and Sliced GRU for Connected Healthca,Yes,Part.,No,Yes,No,No,No,No,No,No,2.5,2.5,Yes,Yes
+R1508,A Hierarchical IDS for Zero-Day Attack Detection in Internet of Medical Things Networks,Yes,Yes,Yes,Part.,No,No,Yes,No,Part.,No,5.0,3.5,Yes,Yes
+R1516,Intelligent Fusion: A Resilient Anomaly Detection Framework for IoMT Health Devices,Yes,Yes,Yes,Yes,Part.,Yes,No,Yes,No,Part.,7.0,4.0,Yes,Yes
+R1520,TRIDENT-NET: A Multi-Stream Attention-based Hybrid Intrusion Detection Framework for Securing IoMT N,Yes,Part.,Yes,Yes,Yes,Yes,No,No,No,No,5.5,3.5,Yes,Yes
+R1528,Resilient Cloud Architectures with AI Agents for Enhancing Cybersecurity in Health Information Syste,Yes,Yes,Yes,Yes,No,No,No,No,No,No,4.0,4.0,Yes,Yes
