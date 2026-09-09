@@ -77,6 +77,25 @@ The name `Patient Safety` occurs in both groups and denotes two different fields
 `08_rq3_gaps.csv` whether patient safety enters the evaluation. They are counted as two of
 the 59 fields.
 
+## Derived verification columns (not part of the 59)
+
+`08_rq3_gaps.csv` carries one column that is **not** one of the 59 extraction fields and was
+not present during extraction:
+
+| Field | Meaning |
+|---|---|
+| `Component Ablation` | whether the study ablates model components or branches, coded afterwards from the full texts |
+
+It was added so that Fig. 4's ablation bar has a traceable source; the figure reported 11
+studies while no column recorded ablation at all. Coding rule: a study counts when it removes
+or disables an architectural component or branch and reports the effect. Thirteen studies use
+the word *ablation*; `R0791` uses it to describe prior work and `R0419` ablates preprocessing
+steps (imputation, resampling, dimensionality reduction) rather than model components, so
+neither counts. The remaining 11 reproduce the published figure.
+
+The 59-field total in the paper is unchanged: this column is a verification artefact, not an
+extraction field.
+
 ## Quality assessment (10)
 
 `QA1`–`QA10`, scored 1, 0.5 or 0. The ten questions and their scoring rubric are in
